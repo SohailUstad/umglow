@@ -1,0 +1,64 @@
+/* Set dark background for the whole page */
+body {
+    background-color: #121212;
+    /* dark gray */
+    color: #e0e0e0;
+    /* light gray text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff;
+}
+
+/* Links */
+a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #1f1f1f;
+    border-color: #bb86fc;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #bb86fc;
+    color: #121212;
+}
+
+/* Card dark style */
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+    color: #e0e0e0;
+}
+
+/* Navbar dark style */
+.navbar {
+    background-color: #1a1a1a;
+}
+
+.navbar a,
+.navbar-brand {
+    color: #ffffff;
+}
+
+.navbar a:hover {
+    color: #bb86fc;
+}

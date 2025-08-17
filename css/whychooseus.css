@@ -1,0 +1,10 @@
+/* Feature Cards */
+.feature-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: default;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(187, 134, 252, 0.5);
+}

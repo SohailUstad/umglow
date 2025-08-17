@@ -1,0 +1,28 @@
+/* Featured Products Cards */
+.card{
+    width: 100%;
+}
+.card img {
+    width: 100%;        /* Full width */
+    height: 200px;       /* Auto height to maintain aspect ratio */
+    object-fit: cover;  /* Maintain nice crop */
+    border-radius: 5px;
+}
+
+.card {
+    height: auto !important;  /* Allow card height to adjust on mobile */
+}
+
+/* Button styling remains the same */
+.card .btn-primary {
+    background-color: #bb86fc;
+    border-color: #bb86fc;
+    color: #121212;
+    transition: all 0.3s;
+}
+
+.card .btn-primary:hover {
+    background-color: #9c4df5;
+    border-color: #9c4df5;
+    color: #ffffff;
+}

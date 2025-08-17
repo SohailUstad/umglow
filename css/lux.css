@@ -1,0 +1,51 @@
+.luxury-lifestyle {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.luxury-lifestyle .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.luxury-lifestyle h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.luxury-lifestyle p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+}
+
+.luxury-lifestyle .btn-primary {
+    background-color: #bb86fc;
+    border-color: #bb86fc;
+    color: #121212;
+    transition: all 0.3s;
+}
+
+.luxury-lifestyle .btn-primary:hover {
+    background-color: #9c4df5;
+    border-color: #9c4df5;
+    color: #ffffff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .luxury-lifestyle h2 {
+        font-size: 2rem;
+    }
+
+    .luxury-lifestyle p {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,24 @@
+/* Video Showcase Section */
+.video-card {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    height: 100%;
+    /* full height of the column */
+}
+
+.video-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(187, 134, 252, 0.5);
+}
+
+/* Video fills the card, no cropping */
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* fit entire video without cropping */
+    border-radius: 5px;
+    background-color: #000;
+    /* fallback background if video has black bars */
+}

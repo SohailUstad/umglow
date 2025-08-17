@@ -1,0 +1,59 @@
+/* Dark Navbar */
+.navbar {
+    background-color: #1a1a1a !important; /* dark background */
+}
+
+.navbar-brand, 
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* white text */
+}
+
+.navbar-brand:hover, 
+.navbar-nav .nav-link:hover {
+    color: #bb86fc !important; /* hover accent */
+}
+
+.navbar-toggler {
+    border-color: #bb86fc !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* makes the hamburger icon white */
+}
+
+/* Dropdown menu in dark theme */
+.dropdown-menu {
+    background-color: #1e1e1e; /* dark background */
+    border: 1px solid #333333;
+}
+
+.dropdown-item {
+    color: #e0e0e0 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #333333;
+    color: #bb86fc !important;
+}
+
+/* Search input and button */
+.navbar .form-control {
+    background-color: #2a2a2a;
+    border: 1px solid #555555;
+    color: #ffffff;
+}
+
+.navbar .form-control::placeholder {
+    color: #aaaaaa;
+}
+
+.navbar .btn-outline-success {
+    color: #ffffff;
+    border-color: #bb86fc;
+}
+
+.navbar .btn-outline-success:hover {
+    background-color: #bb86fc;
+    color: #121212;
+    border-color: #bb86fc;
+}
